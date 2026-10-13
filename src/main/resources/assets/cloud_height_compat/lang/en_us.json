@@ -1,0 +1,9 @@
+{
+  "cloud_height_compat.options.page": "Volumetric Cloud Height",
+  "cloud_height_compat.options.enabled": "Cloud Height Compatibility",
+  "cloud_height_compat.options.enabled.tooltip": "Corrects shader clouds and cloud shadows in expanded dimensions. Disable to restore the shader's original height.",
+  "cloud_height_compat.options.manual": "Set Cloud Height Manually",
+  "cloud_height_compat.options.manual.tooltip": "Off by default to preserve automatic height correction. Enable to use the cloud base Y coordinate selected below. Per-dimension overrides in the config file take priority.",
+  "cloud_height_compat.options.height": "Volumetric Cloud Height",
+  "cloud_height_compat.options.height.tooltip": "Drag to set the cloud base Y coordinate. Default: 832. Focus the slider and use the left/right arrow keys for 1-block adjustments. Apply saves and updates clouds without reloading shaders. Remove any override for the current dimension to use this slider."
+}

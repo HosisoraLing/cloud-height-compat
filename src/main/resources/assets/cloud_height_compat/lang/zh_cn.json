@@ -1,0 +1,9 @@
+{
+  "cloud_height_compat.options.page": "体积云高度",
+  "cloud_height_compat.options.enabled": "云高度兼容",
+  "cloud_height_compat.options.enabled.tooltip": "修正扩高维度中的光影体积云和云影位置。关闭后恢复光影原来的高度。",
+  "cloud_height_compat.options.manual": "手动设置云高度",
+  "cloud_height_compat.options.manual.tooltip": "默认关闭，保留原有自动高度规则。开启后使用下面滑条指定的云底 Y 坐标。配置文件中的维度专属高度优先于此设置。",
+  "cloud_height_compat.options.height": "体积云高度",
+  "cloud_height_compat.options.height.tooltip": "拖动滑条调整云底 Y 坐标，默认 832；选中滑条后可用左右方向键每次微调 1 格。点击应用后保存并生效，无需重载光影。若配置了当前维度的专属高度，请先移除该条覆盖。"
+}

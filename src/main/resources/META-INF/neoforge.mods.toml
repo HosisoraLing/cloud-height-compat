@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="AGPL-3.0-only"
+
+[[mods]]
+modId="cloud_height_compat"
+version="1.1.1"
+displayName="Cloud Height Compat"
+authors="Cloud Height Compat contributors"
+description='''Client-side Iris cloud height compatibility for expanded dimensions and BSL volumetric clouds.'''
+
+[[dependencies.cloud_height_compat]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,21.2)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.cloud_height_compat]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.cloud_height_compat]]
+modId="iris"
+type="required"
+versionRange="[1.8,1.9)"
+ordering="AFTER"
+side="CLIENT"
+
+[[mixins]]
+config="cloud_height_compat.mixins.json"
+
+[[dependencies.cloud_height_compat]]
+modId="sodium"
+type="required"
+versionRange="[0.8,0.9)"
+ordering="AFTER"
+side="CLIENT"
+
+[modproperties.cloud_height_compat]
+"sodium:config_api_user" = "dev.cloudheight.SodiumCloudOptions"

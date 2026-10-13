@@ -1,0 +1,7 @@
+enabled = true
+automatic = true
+clearance = 64
+extraOffset = 0.0
+manualHeightEnabled = false
+manualHeight = 832
+dimensionOverrides = []
